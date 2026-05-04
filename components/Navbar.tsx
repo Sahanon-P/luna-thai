@@ -11,7 +11,6 @@ import { cn } from "@/lib/utils";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
-  { href: "/booking", label: "Booking" },
 ];
 
 export default function Navbar() {
