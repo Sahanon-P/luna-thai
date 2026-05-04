@@ -112,7 +112,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-luna-cream/15 mt-12 pt-6 text-center text-xs text-luna-cream/35 font-lato tracking-wide">
-          © {new Date().getFullYear()} Luna Thai Massage &amp; Wellness. All
+          © {new Date().getFullYear()} { } Luna Thai Massage &amp; Wellness. All
           rights reserved.
         </div>
       </div>

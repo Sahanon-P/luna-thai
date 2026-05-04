@@ -4,7 +4,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import ServiceCard from "@/components/ServiceCard";
 import TestimonialCard from "@/components/TestimonialCard";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, ShieldCheck } from "lucide-react";
 
 function MoonDecoration({ className }: { className?: string }) {
   return (
@@ -355,6 +355,16 @@ export default function HomePage() {
               >
                 Book Your Visit
               </Link>
+
+              <div className="mt-8 flex items-start gap-3 border border-luna-gold/25 bg-luna-gold/10 rounded-sm p-4">
+                <ShieldCheck className="h-4 w-4 text-luna-gold shrink-0 mt-0.5" />
+                <p className="font-lato text-luna-cream/60 text-xs leading-relaxed">
+                  Luna Thai is a fully professional therapeutic wellness studio.
+                  All services are legitimate massage treatments. Any
+                  inappropriate requests will result in immediate termination of
+                  the session.
+                </p>
+              </div>
             </div>
 
             <div className="flex flex-col gap-3">

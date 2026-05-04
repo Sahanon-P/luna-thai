@@ -153,6 +153,10 @@ const faqs = [
     q: "Do you offer gift vouchers?",
     a: "Yes! Gift vouchers are available to purchase in store. They make a thoughtful gift for any occasion — please call or email us to arrange yours.",
   },
+  {
+    q: "Are your services fully professional and therapeutic?",
+    a: "Yes, absolutely. Luna Thai Massage & Wellness is a fully professional therapeutic studio. All of our treatments are legitimate massage and wellness services delivered by trained therapists in a respectful, safe environment. Any inappropriate requests will result in the immediate termination of the session.",
+  },
 ];
 
 export default function ServicesPage() {

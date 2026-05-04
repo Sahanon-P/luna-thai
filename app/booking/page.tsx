@@ -1,5 +1,5 @@
 import BookingForm from "@/components/BookingForm";
-import { Clock, MapPin, Phone, AlertCircle } from "lucide-react";
+import { Clock, MapPin, Phone, AlertCircle, ShieldCheck } from "lucide-react";
 
 const hours = [
   { days: "Monday – Sunday", time: "9:00 AM – 8:30 PM" },
@@ -102,6 +102,17 @@ export default function BookingPage() {
                   </p>
                   <p className="text-xs font-lato text-luna-brown/45 mt-1">
                     Open 7 days, 9:00 AM – 8:30 PM
+                  </p>
+                </div>
+
+                {/* Professional Services Disclaimer */}
+                <div className="flex items-start gap-3 border border-luna-brown/15 bg-luna-brown/5 rounded-sm p-4">
+                  <ShieldCheck className="h-4 w-4 text-luna-gold shrink-0 mt-0.5" />
+                  <p className="font-lato text-luna-brown/60 text-xs leading-relaxed">
+                    Luna Thai is a fully professional therapeutic wellness
+                    studio. All services are legitimate massage treatments. Any
+                    inappropriate requests will result in immediate termination
+                    of the session.
                   </p>
                 </div>
 
