@@ -109,7 +109,7 @@ export default function RootLayout({
                 },
               ],
               sameAs: [
-                "https://www.facebook.com/lunathaimassage",
+                "https://www.facebook.com/profile.php?id=61556598226926",
                 "https://www.instagram.com/lunathai_massage",
               ],
             }),

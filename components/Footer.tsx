@@ -43,14 +43,14 @@ export default function Footer() {
             </p>
             <div className="flex gap-4 mt-1">
               <a
-                href="#"
+                href="https://www.facebook.com/p/Luna-Thai-Massage-Wellness-61556598226926/"
                 className="text-luna-cream/50 hover:text-luna-gold transition-colors"
                 aria-label="Facebook"
               >
                 <FacebookIcon className="h-4 w-4" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/lunathai_massage"
                 className="text-luna-cream/50 hover:text-luna-gold transition-colors"
                 aria-label="Instagram"
               >
