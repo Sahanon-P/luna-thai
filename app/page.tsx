@@ -148,7 +148,7 @@ export default function HomePage() {
                 alt="Luna Thai Massage & Wellness"
                 width={520}
                 height={520}
-                className="w-56 sm:w-72 lg:w-full max-w-sm lg:max-w-md xl:max-w-lg"
+                className="w-56 sm:w-72 lg:w-full max-w-sm lg:max-w-md xl:max-w-lg border-4 border-white/80 rounded-sm"
                 priority
               />
             </div>

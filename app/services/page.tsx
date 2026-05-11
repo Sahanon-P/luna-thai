@@ -1,4 +1,18 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Treatments & Pricing",
+  description:
+    "Explore 12 professional massage treatments in Christchurch — Traditional Thai, deep tissue, hot stone, aromatherapy, reflexology & more. Transparent pricing, no hidden fees.",
+  alternates: { canonical: "https://lunathaimassage.co.nz/services" },
+  openGraph: {
+    title: "Treatments & Pricing | Luna Thai Massage & Wellness",
+    description:
+      "12 professional massage treatments in Christchurch. Traditional Thai, deep tissue, hot stone & more.",
+    url: "https://lunathaimassage.co.nz/services",
+  },
+};
 import Image from "next/image";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";

@@ -1,4 +1,18 @@
+import type { Metadata } from "next";
 import BookingForm from "@/components/BookingForm";
+
+export const metadata: Metadata = {
+  title: "Book a Session",
+  description:
+    "Book your massage appointment at Luna Thai in Christchurch. Choose your treatment, pick a time, and we'll take care of the rest. Open 7 days, 9 AM–8:30 PM.",
+  alternates: { canonical: "https://lunathaimassage.co.nz/booking" },
+  openGraph: {
+    title: "Book a Session | Luna Thai Massage & Wellness",
+    description:
+      "Book your massage in Christchurch online. Open 7 days, 9 AM–8:30 PM.",
+    url: "https://lunathaimassage.co.nz/booking",
+  },
+};
 import { Clock, MapPin, Phone, AlertCircle, ShieldCheck } from "lucide-react";
 
 const hours = [
